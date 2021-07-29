@@ -23,7 +23,7 @@ else
 </head>
 <body>
     <section class="congratulations">
-        <h1>BRO!</h1>
+        <h1>BRO!!!</h1>
         <p>Good luck</p>
         <p>You are running PHP version <?= phpversion() ?></p>
         <p>This environment is launched with Elastic Beanstalk PHP Platform</p>
