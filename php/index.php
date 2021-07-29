@@ -1,22 +1,18 @@
 <html>
 <head>
-<style>
-body { background-color: gray }
-</style>
+<style>body { background-color: gray }</style>
 </head>
 <body>
 <center>
-<font color="white">
-<h1>Hello BRO!!!</h1>
-</font>
-</center>
+<font color="green"><h1>Hello BRO!!!</h1></font>
+
 <?php
-
-echo '<p style="color: red; text-align: center">
-hELLOW FROM AWS 
-</p>';
-
-echo '<br>Local IP: '.$SERVER ['SERVER_ADDR'];
+echo '<p style="color: gold">
+      This is AWS Elastic Beanstalk WebServer with PHP App by Jenkins</p>';
+echo '<br>Server IP:'.$_SERVER['SERVER_ADDR'];
 ?>
+<br>
+Version 2.3 
+</center>
 </body>
 </html>
